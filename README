@@ -1,3 +1,6 @@
-I am working with the Systems Biology lab at UCSD to create a plugin
-for the application Cytoscape. When complete, it will evaluate the
-'closeness' of Nodes in the network. 
+This is a plugin for the Cytoscape application. As of now, the plugin 
+can calculate the degree, adjacency, and laplcian matrices from a given 
+network. Additionally, it can create a new network. Features that needed to be
+added are finding connected components and creating a new network with a given
+table ( internal representation of the graph ). The Colt library is used
+for Matrix handling and operations.
